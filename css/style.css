@@ -1,0 +1,100 @@
+/* Author : Ananthu A S */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* banner start */
+.h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../image/academy-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner-height {
+    min-height: 100vh;
+}
+/* banner end */
+/* intro start */
+.box {
+    background-color: #1e2531;
+    color: #30e3df;
+    font-size: 30px;
+    padding: 30px;
+    margin-left: -9%;
+}
+.box p::before {
+    content: "{";
+    color: #d61355;
+}
+.box p::after {
+    content: "}";
+    color: #d61355;
+}
+.intro_para {
+    color: #252525;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* intro end */
+.course {
+    background-image: url("../image/modulebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.course_div > div {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    min-width: 20%;
+    color: #fff;
+}
+/* course support start */
+.support_para {
+    min-height: 40vh;
+}
+.course_bg_l {
+    background-image: url("../image/testsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60vh;
+}
+.course_bg_r {
+    background-image: url("../image/intrvwbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60vh;
+}
+.course_ht {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 150px;
+}
+.course_ht p {
+    color: #fff;
+}
+.join {
+    color: #f26422;
+    border: solid #f26422;
+}
+/* course support end */
+/* media query */
+@media screen and (max-width: 992px) {
+    .box {
+        margin: 20px 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        background-image: none;
+        background-color: #b7bfc6;
+        text-align: center;
+    }
+}
